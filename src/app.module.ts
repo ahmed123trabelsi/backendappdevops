@@ -30,7 +30,7 @@ import { MissionModule } from './mission/mission.module';
             envFilePath: '.env',
             isGlobal: true,
         }),
-        MongooseModule.forRoot(process.env.DB_URI),
+        MongooseModule.forRoot(process.env.MONGODB_URL),
         AuthModule,
         CongesModule,
         DepartementsModule,
