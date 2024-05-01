@@ -11,7 +11,7 @@ async function bootstrap() {
 
   await app.listen(process.env.SERVER_PORT);
   app.enableCors({
-    origin: [ 'http://192.168.33.10:4200'],   // Adjust according to your front-end URL
+    origin: ['http://192.168.33.10:4200'],   
     credentials:  true,
     methods: 'GET,PUT,POST,DELETE',
     allowedHeaders: 'Content-Type, Accept',
