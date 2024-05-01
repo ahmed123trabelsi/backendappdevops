@@ -30,7 +30,7 @@ services:
   front:
     container_name: front
     image: server_web
-    build: ../Frontend_Hr_management/mian/Frontend_Hr_management/mian
+    build: ../frontappdevops
     restart: always
     ports:
       - "4200:80"
