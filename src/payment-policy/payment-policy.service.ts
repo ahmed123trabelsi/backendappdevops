@@ -15,7 +15,7 @@ export class PaymentPolicyService {
     const createdPaymentPolicy = new this.paymentPolicyModel(createPaymentPolicyDto);
     const savedPaymentPolicy = await createdPaymentPolicy.save();
   
-    return savedPaymentPolicy; // Assurez-vous de retourner la valeur sauvegardée
+    return savedPaymentPolicy; // Assurez-vous de retourner la valeur sauvegardéej
   }
   
   async findAll(): Promise<PaymentP[]> {
